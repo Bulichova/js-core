@@ -18,6 +18,7 @@ console.log(myNumber.toFixed(3));
 console.log(Math.floor(myNumber));
 console.log(Math.ceil(myNumber));
 console.log(Math.round(myNumber));
+console.log(0.1+0.2);
 
 
 
