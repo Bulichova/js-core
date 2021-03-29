@@ -67,7 +67,7 @@ console.log(`тип данных строка с пробелом ${value},че�
 value = true;
 
 // toNumber = Number (value);
-// console.log(`${value},через конструктор Number ():`, toString);
+// console.log(`${value},через конструктор String ():`, toString);
 // console.log(`тип данных ${value},через конструктор String ():`, typeof toString);
 
 // toString = value + "";
