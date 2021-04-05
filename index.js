@@ -5,7 +5,11 @@
 // import "./js/toString.js";
 // import "./js/toNumber.js";
 // import "./js/array.js";
-import "./js/loops.js";
+// import "./js/loops.js";
+// import "./js/callback.js";
+// import "./js/arrayMethods.js";
+import "./js/short.js";
+
 
 
 
