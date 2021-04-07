@@ -45,54 +45,48 @@
 // примимтивные типы данных
 
 // STRING (строка) тип примитива
-let stringData = "string data";
-console.log(stringData);
+let stringData = 'string data'
+console.log(stringData)
 // typeof - оператор определения тиров данных
-console.log(typeof stringData);
-stringData = "";
-console.log(typeof stringData);
-stringData = " ";
-console.log(typeof stringData);
+console.log(typeof stringData)
+stringData = ''
+console.log(typeof stringData)
+stringData = ' '
+console.log(typeof stringData)
 
-// NUMBER (число) 
-let number = 1;
-console.log(number);
-console.log(typeof number);
+// NUMBER (число)
+let number = 1
+console.log(number)
+console.log(typeof number)
 
-number = 2e53;
-console.log(number);
-console.log(typeof number);
+number = 2e53
+console.log(number)
+console.log(typeof number)
 
-number = Infinity; // бесконечность
-console.log(number);
-console.log(typeof number);
+number = Infinity // бесконечность
+console.log(number)
+console.log(typeof number)
 
-number = NaN; // not  a number  не число
-console.log(number);
-console.log(typeof number);
+number = NaN // not  a number  не число
+console.log(number)
+console.log(typeof number)
 
 // Boolean true || false
 
-let isOnline = true;
-console.log(isOnline);
-console.log(typeof isOnline);
+let isOnline = true
+console.log(isOnline)
+console.log(typeof isOnline)
 
-isOnline = false;
-console.log(isOnline);
-console.log(typeof isOnline);
+isOnline = false
+console.log(isOnline)
+console.log(typeof isOnline)
 
 // UNDEFINED
-let message;
-console.log(message);
-console.log(typeof message);
+let message
+console.log(message)
+console.log(typeof message)
 
 // NULL
-let user = null;
-console.log(user);
-console.log(typeof user);
-
-
-
-
-
-
+let user = null
+console.log(user)
+console.log(typeof user)

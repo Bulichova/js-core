@@ -8,7 +8,9 @@
 // import "./js/loops.js";
 // import "./js/callback.js";
 // import "./js/arrayMethods.js";
-import "./js/short.js";
+// import "./js/short.js";
+import "./js/objects.js"
+import "./js/dz.js"
 
 
 
