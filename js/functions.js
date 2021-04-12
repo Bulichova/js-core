@@ -17,6 +17,7 @@ const myFunc1 = function () {
 }
 myFunc1()
 console.log(myFunc1())
+console.dir(myFunc1)
 
 const myFunc2 = function () {
   let x = '1'
