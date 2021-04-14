@@ -10,10 +10,12 @@
 // import "./js/arrayMethods.js";
 // import "./js/short.js";
 // import "./js/objects.js"
-import "./js/dz2.js"
+// import "./js/dz2.js"
 // import "./js/objects2.js"
 // import "./js/fkES5.js"
 // import "./js/classES6.js"
-
+// import "./js/dz1.js"
+import "./db/pictures.js"
+import "./js/DOM.js"
 
 
