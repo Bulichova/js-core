@@ -75,12 +75,12 @@ const sky = {
   getValue(key) {
     return this[key]
   },
-  createNewProp(key,value) {
-      return this[key]=value
+  createNewProp(key, value) {
+    return (this[key] = value)
   },
-  upDate(key,value) {
-      return this[key]=value
-  }
+  upDate(key, value) {
+    return (this[key] = value)
+  },
 }
 result = sky.getValue.call(user1, 'age')
 console.log(result)
@@ -88,9 +88,9 @@ result = sky.getValue.call(user1, 'mood')
 console.log(result)
 result = sky.getValue.call(Tata, 'email')
 console.log(result)
-result = sky.createNewProp.call(Tata,"email","tata@gmail.com")
-console.log(Tata);
-result = sky.upDate.call(Tata,"email","kukuruku@mail.com")
-console.log(Tata);
-result = sky.upDate.call(Tata,"adres","world")
-console.log(Tata);
+result = sky.createNewProp.call(Tata, 'email', 'tata@gmail.com')
+console.log(Tata)
+result = sky.upDate.call(Tata, 'email', 'kukuruku@mail.com')
+console.log(Tata)
+result = sky.upDate.call(Tata, 'adres', 'world')
+console.log(Tata)
